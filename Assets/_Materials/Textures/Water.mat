@@ -83,8 +83,8 @@ Material:
     - _WaveHeight: 1
     - _WaveM: 10
     - _WaveSpeed: 7.3
-    - _WaveV: 7.95
-    - _WaveZ: 0.04
+    - _WaveV: 8.67
+    - _WaveZ: 0.047
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 1}

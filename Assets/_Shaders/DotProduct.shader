@@ -36,7 +36,7 @@ Shader "Custom/DotProduct"
             }
  
             fixed4 frag (v2f i) : SV_Target {
-               float3 albedo = i.worldNormal * i.viewDir;
+               float3 albedo = dot(i.worldNormal, i.viewDir);
                 return fixed4(albedo, 1);
             }
             ENDCG
